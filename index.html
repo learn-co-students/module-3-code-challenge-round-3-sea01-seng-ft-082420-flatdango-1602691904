@@ -5,9 +5,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
     <link rel="stylesheet" href="assets/index.css"/>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="src/index.js" defer></script>
   </head>
-  <body>
 
+  <body>
     <!-- navbar -->
     <div class="heading">
       <div class='item'>
@@ -49,19 +50,20 @@
       <!-- showing info -->
       <div class="four wide column">
         <div class="ui cards" id="showing">
-
           <div class="card">
-            <div id="title" class="title">[MOVIE TITLE]</div>
-            <div id="runtime" class="meta">[RUNTIME] minutes</div>
-            <div class="content">
-                <div class="description">
-                    <div id="film-info">[INSERT MOVIE DESCRIPTION HERE]</div>
-                    <span id="showtime" class="ui label">[SHOWTIME]</span>
-                    <span id="ticket-num">[X]</span> remaining tickets
-                </div>
-            </div>
-            <div class="extra content">
-              <div class="ui orange button">Buy Ticket</div>
+            <div id="selected-film-info">
+              <div id="title" class="title">[MOVIE TITLE]</div>
+              <div id="runtime" class="meta">[RUNTIME] minutes</div>
+              <div class="content">
+                  <div class="description">
+                      <div id="film-info">[INSERT MOVIE DESCRIPTION HERE]</div>
+                      <span id="showtime" class="ui label">[SHOWTIME]</span>
+                      <span id="ticket-num">[X]</span> remaining tickets
+                  </div>
+              </div>
+              <div class="extra content">
+                <div class="ui orange button">Buy Ticket</div>
+              </div>
             </div>
           </div>
 
@@ -69,6 +71,6 @@
       </div>
 
     </div>
-    <script src="src/index.js"></script>
+    <!-- <script src="src/index.js"></script> -->
   </body>
 </html>
